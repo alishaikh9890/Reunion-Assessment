@@ -1,0 +1,55 @@
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.nav-filter{
+    display: flex;  
+    gap: 40px; 
+}
+.nav-login{
+    display: flex;  
+    gap: 15px; 
+}
+
+.logo{
+    display: flex;
+    padding: 5px 8px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.nav-filter h4{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.866);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.nav-filter h4:hover{
+    background-color: rgb(232,230,248);
+    color: rgb(112,100,240);  
+}
+
+
+.nav-login button{
+    margin: auto;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: rgb(112,100,240);
+    background-color: white;
+    border: 1.5px solid rgba(112, 100, 240, 0.178);
+    border-radius: 5px;
+}
+
+.nav-login button:last-child{
+    background-color:rgb(112,100,240);
+    color: white;
+}

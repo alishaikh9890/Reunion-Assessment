@@ -1,0 +1,172 @@
+.Rent{
+    border: 1px solid rgb(247,247,252);
+    padding: 0px 190px;
+    background-color: rgb(247,247,252);
+}
+.Rent > div{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+.search-title{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+}
+
+.s-input{
+    display: flex;
+    width: 250px;
+    height: 45px;
+    margin: auto 0px;
+    border: 1.5px solid rgba(112, 100, 240, 0.178); 
+    border-radius: 7px;
+}
+.s-input input{
+    border: none;
+    margin: auto;
+    font-size: 15px;
+    width: 170px;
+}
+
+.fa{
+    background-color: rgb(232,230,248);
+    color: rgb(112,100,240); 
+    border-radius: 50%;
+    padding: 2px;
+    margin: auto;
+}
+
+
+
+/* ////////////// FILTERS /////////////////////////////////////////////// */
+
+
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 20px;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-radius: 5px;
+}
+.filters > div {
+    
+   
+    /* border: 1px solid red; */
+    /* border-right: 1px solid gainsboro; */
+    
+}
+
+.f-search{
+    background-color: rgb(112,100,240);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.filters > div > p{
+    color: gray;
+}
+.filters button{
+    margin: auto;
+}
+.filters > div> select{
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.properties{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.properties > div{
+    border-radius: 7px;
+  
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    text-align: start;
+
+}
+
+
+.property > img{
+    width: 100%;
+    height: 50%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.p-details{
+    padding:0px 20px;
+}
+
+.p-details h2,p{
+    margin: auto 0px;
+    margin-top: 10px;
+}
+
+.p-details p{
+    color: gray;
+    font-size: 15px;
+    display: flex;
+}
+
+.p-details > p > h2{
+    color: rgb(112,100,240);
+   margin-top: -5px;
+}
+
+/* .p-price{
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-around;
+}
+.p-price h2,p{
+    
+    margin: auto;
+} */
+
+
+
+
+
+.p-areas{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.p-heart{
+    margin-top: -20px;
+    position: relative;
+    left: 273px;
+    top:50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(112,100,240);
+    border-radius: 50%;
+    border: 1px solid rgba(112, 100, 240, 0.614);
+}
+
+.ar{
+    color: rgb(112,100,240);
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 6px;
+}
