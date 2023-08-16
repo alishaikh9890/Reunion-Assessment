@@ -10,6 +10,7 @@ import {data} from "./Data"
 
 
 
+
 const Rent = () => {
 const [location, setLocation] =React.useState("New York, USA")
 const [type, setType] = React.useState("Houses")
@@ -52,9 +53,9 @@ const [price, setPrice] = React.useState("price")
 
             <div>
                 <p>Location</p>
-                <select onChange={(e) => setLocation(e.target.value)} >
+                <select className='select-box'   onChange={(e) => setLocation(e.target.value)} >
                     
-                    <option value="New York, USA" >New York, USA</option>
+                    <option  value="New York, USA" >New York, USA</option>
                     <option value="Florida, USA" >Florida, USA</option>
                     <option value="Texus, USA" >Texus, USA</option>
                     <option value="Georgia, USA" >Georgia, USA</option>
